@@ -41,9 +41,6 @@ export function PosterModal({ isOpen, onClose, result }: PosterModalProps) {
         <div className="flex items-center justify-between gap-3 border-b border-[rgba(23,18,15,0.08)] px-4 pb-4 pt-4">
           <div>
             <p className="text-sm text-[var(--ink-soft)]">分享海报预览</p>
-            <h2 className="headline-font text-2xl tracking-[-0.05em]">
-              发出去像个真产品
-            </h2>
           </div>
           <button
             type="button"
@@ -107,7 +104,6 @@ export function PosterModal({ isOpen, onClose, result }: PosterModalProps) {
                     <div className="text-xs uppercase tracking-[0.16em] text-[var(--ink-soft)]">
                       你的高能维度
                     </div>
-                    <div className="text-xs text-[var(--ink-soft)]">适合发朋友圈 / 小红书</div>
                   </div>
                   <div className="grid gap-3">
                     {highlightDimensions.map((item) => (
